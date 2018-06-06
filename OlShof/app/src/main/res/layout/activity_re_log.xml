@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/lytrelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ReLog"
+        >
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="ONLINE SHOFF"
+            android:textSize="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="425dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:padding="16dp"
+            android:id="@+id/btnlogin"
+            android:text="LOGIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnloginn"
+            />
+            <Button
+                android:onClick="btnregisterr"
+                android:layout_toRightOf="@id/btnlogin"
+                android:padding="16dp"
+                android:id="@+id/btnregister"
+                android:text="REGISTER"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

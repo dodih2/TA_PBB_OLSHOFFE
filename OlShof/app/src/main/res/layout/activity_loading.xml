@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    >
+    <RelativeLayout
+        tools:context=".Loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/idlinear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:id="@+id/idimage1"
+        android:src="@drawable/hf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/idlinear1"
+        android:id="@+id/idjudul1"
+        android:text="SAMSUNG A3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@id/idjudul1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/idlinear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/idimage2"
+            android:src="@drawable/hf2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/idlinear2"
+        android:id="@+id/idjudul2"
+        android:text="SAMSUNG A3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@id/idjudul2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/idlinear3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/idimage3"
+            android:src="@drawable/hf3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/idlinear3"
+        android:id="@+id/idjudul3"
+        android:text="SAMSUNG A3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>

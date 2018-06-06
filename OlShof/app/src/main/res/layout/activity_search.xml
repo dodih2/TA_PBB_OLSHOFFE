@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+    <TextView
+        android:id="@+id/lblcari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cari"
+        />
+<AutoCompleteTextView
+    android:id="@+id/idAutoCompleteTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/lblcari"
+    />
+    <TextView
+        android:id="@+id/lblkategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KATEGORI"
+        android:layout_below="@id/idAutoCompleteTextView"
+        />
+    <Spinner
+        android:id="@+id/idSpiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblkategori"
+        android:layout_centerHorizontal="true"
+        ></Spinner>
+    <Button
+        android:id="@+id/idbuttoncari"
+        android:text="Cari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idSpiner"
+        />
+
+</RelativeLayout>
